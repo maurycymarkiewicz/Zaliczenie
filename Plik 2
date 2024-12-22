@@ -5,7 +5,17 @@ using namespace std;
 double potegowanie3(double d){
 return d*d*d;
 }
+bool porownanie(int a, int b){
+    if(a==b){
+        return true;
+    }
+    else{
+        return false;
+    }
+    //to drugi commit z zadania
+}
 
 int main() {
 cout<<potegowanie3(5);
+cout<<porownanie(1,2);
 }
